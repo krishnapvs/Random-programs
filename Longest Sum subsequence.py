@@ -1,5 +1,6 @@
 # Largest Sum Contiguous Subarray
-#Write an efficient python program to find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.
+# Using Kadane's algorithm
+# Write an efficient python program to find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.
 
 def largestSumContiguousSubArray(A):
 	max_so_far=max_end_here=0
