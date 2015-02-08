@@ -3,11 +3,10 @@
 def reverse(A):
 	if len(A)==1:
 		B=[]
-		b.append(A[0])
-		return B
 	else:
 		B=reverse(A[1:])
-		B.append(A[0])
+	B.append(A[0])
+	return B
 
 
 #test
