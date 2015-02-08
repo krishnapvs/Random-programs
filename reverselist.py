@@ -12,8 +12,6 @@ def reverse_iterative(A):
 	B=list(A)
 	j=len(A)-1
 	for i in range(len(A)/2):
-		
-		print i,j
 		if i==j:
 			return B
 		else:
@@ -21,6 +19,7 @@ def reverse_iterative(A):
 			B[i]=B[j]
 			B[j]=temp
 			j-=1
+	return B
 
 #test
 
