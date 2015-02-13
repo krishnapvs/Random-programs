@@ -1,5 +1,5 @@
 # Making rows and columns zeroes
-
+# rows and columns
 M=int(raw_input("Enter number of rows: "))
 N=int(raw_input("Enter number of columns: "))
 matrix=[]
